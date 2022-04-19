@@ -2,7 +2,7 @@ variable "AWS_REGION" {
     default = "us-east-1"
 }
 
-variable "aws_vpc_name" {
+variable "aws_vpc" {
   description = "VPC Name"
   default = "MS_VPC"
 }
